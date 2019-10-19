@@ -2,12 +2,15 @@
   "name": "import-sort-style-simon-sort",
   "version": "1.0.0",
   "description": "A import-sort style implementing Simon Sort",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nilswloka/import-sort-style-simon-sort.git"    
+  },
   "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "build": "babel src -d lib"
   },
-  "author": "mail@nilswloka.com",
+  "author": "Nils Wloka <mail@nilswloka.com>",
   "license": "MIT",
   "dependencies": {
     "import-sort": "^6.0.0"
