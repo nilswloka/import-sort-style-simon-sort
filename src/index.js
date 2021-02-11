@@ -11,7 +11,7 @@ function isStyleImport(module) {
 }
 
 function isInstanaModule(module) {
-    return module.startsWith('in-') && (module.indexOf('/') > 0);
+    return module.startsWith('in-');
 }
 
 function descending(first, second) {
